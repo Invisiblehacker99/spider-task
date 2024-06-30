@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Suggestion App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Recipe Suggestion App</h1>
+
+        <div class="ingredient-selection">
+            <h2>Select Ingredients:</h2>
+            <form id="ingredient-form">
+                <label>
+                    <input type="checkbox" name="ingredient" value="Chicken">
+                    Chicken
+                </label>
+                <label>
+                    <input type="checkbox" name="ingredient" value="Rice">
+                    Rice
+                </label>
+                <label>
+                    <input type="checkbox" name="ingredient" value="Tomato">
+                    Tomato
+                </label>
+                
+                
+                <button type="submit">Find Recipes</button>
+            </form>
+        </div>
+
+        <div id="recipe-results" class="recipe-results">
+            
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
